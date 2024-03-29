@@ -140,6 +140,22 @@ ul {
   clear: both;
 }
 
+.hogsContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header{
+  margin-bottom: 5px
+}
+.tile{
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 50px;
+  justify-content: space-between;
+  align-items: center;
+}
 
 @keyframes App-logo-spin {
   from {
